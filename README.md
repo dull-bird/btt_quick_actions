@@ -1,4 +1,4 @@
-# BetterTouchTool Trackpad Preset Guide
+# BetterTouchTool QuickActions Preset Guide
 
 *[中文版本](README_CN.md)*
 

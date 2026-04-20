@@ -1,4 +1,4 @@
-# BetterTouchTool 触控板预设使用指南
+# BetterTouchTool QuickActions 预设使用指南
 
 *[Read this in English](README.md)*
 

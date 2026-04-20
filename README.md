@@ -1,0 +1,97 @@
+# BetterTouchTool Trackpad Preset Guide
+
+*[Read this in Chinese / 中文版本](README_CN.md)*
+
+This document introduces the shortcut gestures and keyboard shortcut logic included in the current [BetterTouchTool (BTT)](https://folivora.ai/) preset. You can quickly get started by following these gesture instructions, or share it with others as a user reference.
+
+## 🌐 Global Gestures
+
+Global gestures are applicable to almost all daily applications and usage scenarios. For memory and feedback convenience, some gestures will display an exclusive Emoji Head-Up Display (HUD) on the screen when triggered.
+
+### ☝️ 3-Finger Gestures
+Mainly used for **window management** and **tab switching**.
+
+| Action | Execution (Shortcut) | HUD |
+| :--- | :--- | :--- |
+| **Swipe Down** | `Command + W` (Close current window/tab) | 🥝 |
+| **Swipe Up** | `Command + Tab` (Switch applications) | 🔙 |
+| **Swipe Left** | `Ctrl + Tab` (Next tab) | ⬅️ |
+| **Swipe Right** | `Ctrl + Shift + Tab` (Previous tab) | None |
+| **Click** | Maximize window to **Next Display** | ✈️ |
+| **Tap** | `Option (⌥) + Click` (Trigger special click like Quick Look/Menu) | None |
+| **Double Tap** | `Ctrl + Cmd + D` (Look up dictionary at cursor) | None |
+
+**Advanced 3-Finger Gestures with Modifiers**:
+* Hold `Control (⌃)` + **Swipe Up**: Open Mission Control
+* Hold `Control (⌃)` + **Swipe Down**: Minimize the window hovered under cursor
+* Hold `Option (⌥)` + **Swipe Up**: Enter app fullscreen mode (if supported)
+* Hold special modifier (Fn) + **Swipe Down**: Close the window hovered under cursor
+
+### ✌️ 4-Finger Gestures
+Mainly used for **app-level control** and **system tools**.
+
+| Action | Execution (Shortcut) | HUD |
+| :--- | :--- | :--- |
+| **Swipe Down** | `Command + Q` (Quit current application) | 🥥 |
+| **Specific Tap Seq.** | Open macOS native screenshot/recording tool (Mojave+)| None |
+
+*(Note: The 4-finger tap sequence is set like a piano chord: 1-4-2-3-3-2-4-1)*
+
+### 👆 1-Finger Gestures
+* Hold `Option (⌥)` + **Tap bottom center**: Trigger `Command + M` (Minimize current window)
+
+---
+
+## ⌨️ Global Shortcuts
+
+The preset integrates some in-depth keyboard shortcut configurations (using specific modifier key combinations). Since keyboard configurations can be complex, here is the **core capability panel** they provide:
+
+* **📏 Window Splitting & Positioning**: Includes "Maximize window left/right" to quickly split workspaces.
+* **↔️ Cross-Display**: Use shortcuts to instantly "Maximize to Next Display".
+* **🎯 Elastic Window Resizing**: Custom resize actions that **automatically center** the window afterwards.
+* **✖️ Efficient Closing**: Directly "Close window under cursor" (works even in Mission Control).
+* **💡 Screen Control**: Shortcuts for Brightness Up and Down.
+
+---
+
+## 🖱️ Mouse Support
+
+Some configurations cater to users with external regular mice:
+* **Side Button (Button 4)**: Directly **Maximize** the current window.
+* **Middle Button (Button 3)**: Directly **Minimize** the hovered window under cursor.
+
+---
+
+## 📦 App-Specific Settings
+
+The preset provides dedicated adaptations for specific applications:
+
+### 1. Safari Browser
+* Bound **horizontal scrolling** to simulate `Ctrl + Tab` and `Ctrl + Shift + Tab` for quick tab switching.
+* *(Note: This feature is temporarily set to "Disabled" in the current preset; you can manually un-disable it in BTT if needed.)*
+
+### 2. PDF Expert (PDF Reader)
+* Enhanced backward/forward navigation logic:
+  * Pressing `[` triggers `Command + [`
+  * Pressing `]` triggers `Command + ]`
+  * Benefit: Simplifies shortcuts so you only need to press bracket keys for back/forward navigation.
+
+---
+
+## ⚙️ General Settings & Tuning
+
+The preset includes in-depth system-level tuning (BTTGeneralSettings), which not only improves gesture trigger success rates but also optimizes the native macOS experience:
+
+* **🧲 Advanced Window Snapping**:
+  * **Omni-directional Snapping**: Enabled quick snapping/expansion for top, bottom, and four corners of the screen.
+  * **Visuals & Experience**: Smooth preview animations, custom highlight colors, rounded borders, and enhanced drag sensitivity.
+  * **Memory Optimization**: Enabled Memory Saver for snap areas and edge gap adjustments for Stage Manager.
+
+* **🖐️ Trackpad & Force Touch Tuning**:
+  * **Pressure Control**: Precise force thresholds distinguishing "Normal Click" and "Force Click" (higher force required to prevent accidental triggers), paired with detailed Haptic feedback.
+  * **Palm Rejection**: Enabled Palm Recognition and allowed thumbs resting on edges to avoid finger conflicts in complex gestures.
+  * **Sensitivity Tweaks**: Custom swipe sensitivities for 3 & 4 fingers, and precise tweaks for double-tap delays.
+
+* **💻 Notch & Touch Bar Adaptations**:
+  * Configured status bar icon hiding/showing logic for Macs with Notch or Touch Bar.
+  * Supports filtering Magic Mouse edge accidental touches for heavy mouse users.

@@ -48,9 +48,8 @@ Mainly used for **app-level control** and **system tools**.
 | Action | Execution (Shortcut) | HUD |
 | :--- | :--- | :--- |
 | **Swipe Down** | `Command + Q` (Quit current application) | 🥥 |
-| **Specific Tap Seq.** | Open macOS native screenshot/recording tool (Mojave+)| None |
+| **Double Tap** | Open macOS native screenshot/recording tool (Mojave+)| None |
 
-*(Note: The 4-finger tap sequence is set like a piano chord: 1-4-2-3-3-2-4-1)*
 
 ### 👆 1-Finger Gestures
 * Hold `Option (⌥)` + **Tap bottom center**: Trigger `Command + M` (Minimize current window)

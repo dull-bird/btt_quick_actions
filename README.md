@@ -95,7 +95,7 @@ The preset provides dedicated adaptations for specific applications:
 
 ---
 
-## 🛠️ Recommended System Settings / 系统设置建议
+## 🛠️ Recommended System Settings
 
 To ensure the best experience and avoid conflicts with macOS native gestures, we recommend following these settings in **System Settings > Trackpad** (as shown in the screenshots below):
 

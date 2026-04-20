@@ -97,19 +97,11 @@ The preset provides dedicated adaptations for specific applications:
 
 ## 🛠️ Recommended System Settings / 系统设置建议
 
-To ensure the best experience and avoid conflicts with macOS native gestures, we recommend the following settings in **System Settings > Trackpad**:
+To ensure the best experience and avoid conflicts with macOS native gestures, we recommend following these settings in **System Settings > Trackpad** (as shown in the screenshots below):
 
-### 1. More Gestures
-- **Swipe between pages**: Set to **Two Fingers** (Recommended).
-- **Swipe between full-screen apps**: Set to **Four Fingers** (frees up **Three Fingers** for BTT).
-- **Mission Control / App Exposé**: Set to **Four Fingers**.
-
-![More Gestures Settings](assets/mac_trackpad_settings_1.png)
-
-### 2. Scroll & Zoom
-- **Natural scrolling**: **On** (Default).
-
-![Scroll & Zoom Settings](assets/mac_trackpad_settings_2.png)
+![Settings Part 1](assets/mac_trackpad_settings_1.png)
+![Settings Part 2](assets/mac_trackpad_settings_2.png)
+![Settings Part 3](assets/mac_trackpad_settings_3.png)
 
 ---
 

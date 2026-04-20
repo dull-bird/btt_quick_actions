@@ -97,23 +97,16 @@
 
 ## 🛠️ 系统设置建议 / Recommended System Settings
 
-为了确保最佳体验并避免与 macOS 原生手势冲突，建议在 **系统设置 > 触控板** 中进行以下配置：
+为了确保最佳体验并避免与 macOS 原生手势冲突，建议按照以下顺序配置 **系统设置 > 触控板**（参考下方截图）：
 
-### 1. 更多手势 (More Gestures)
-- **在页面间轻扫**：设为 **双指**。
-- **在全屏幕应用之间轻扫**：设为 **四指**（这样可以腾出 **三指** 给本预设进行窗口管理）。
-- **调度中心 (Mission Control) / 应用程序显露**：设为 **四指**。
-
-![更多手势设置](assets/mac_trackpad_settings_1.png)
-
-### 2. 滚动与缩放 (Scroll & Zoom)
-- **自然滚动**：**开启**。
-
-![滚动与缩放设置](assets/mac_trackpad_settings_2.png)
+![设置截图 1](assets/mac_trackpad_settings_1.png)
+![设置截图 2](assets/mac_trackpad_settings_2.png)
+![设置截图 3](assets/mac_trackpad_settings_3.png)
 
 ---
 
 ## ⚙️ 高级全局设置与调优
+
 
 
 

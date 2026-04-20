@@ -31,10 +31,16 @@ Mainly used for **window management** and **tab switching**.
 | **Double Tap** | `Ctrl + Cmd + D` (Look up dictionary at cursor) | None |
 
 **Advanced 3-Finger Gestures with Modifiers**:
+> [!TIP]
+> **Design Logic**: The modifier keys are intuitively mapped to the macOS window control buttons:
+> - `Fn` ⟷ **Red Button** (Close)
+> - `Control (⌃)` ⟷ **Yellow Button** (Minimize)
+> - `Option (⌥)` ⟷ **Green Button** (Fullscreen)
+
 * Hold `Control (⌃)` + **Swipe Up**: Open Mission Control
 * Hold `Control (⌃)` + **Swipe Down**: Minimize the window hovered under cursor
 * Hold `Option (⌥)` + **Swipe Up**: Enter app fullscreen mode (if supported)
-* Hold special modifier (Fn) + **Swipe Down**: Close the window hovered under cursor
+* Hold `Fn` + **Swipe Down**: Close the window hovered under cursor
 
 ### 🖖 4-Finger Gestures
 Mainly used for **app-level control** and **system tools**.

@@ -27,8 +27,9 @@ Mainly used for **window management** and **tab switching**.
 | **Swipe Up** | `Command + Tab` (Switch applications) | None |
 | **Swipe Left** | `Ctrl + Tab` (Next tab) | None |
 | **Swipe Right** | `Ctrl + Shift + Tab` (Previous tab) | None |
-| **Click** | Maximize window to **Next Display** | ✈️ |
 | **Double Tap** | `Ctrl + Cmd + D` (Look up dictionary at cursor) | None |
+
+![Three Fingers Close Tab Demo](assets/three_fingers_close_tab.gif)
 
 **Advanced 3-Finger Gestures with Modifiers**:
 > [!TIP]
@@ -53,9 +54,6 @@ Mainly used for **app-level control** and **system tools**.
 | **Swipe Down** | `Command + Q` (Quit current application) | 🥥 |
 | **Double Tap** | Open macOS native screenshot/recording tool (Mojave+)| None |
 
-
-### 👆 1-Finger Gestures
-* Hold `Option (⌥)` + **Tap bottom center**: Trigger `Command + M` (Minimize current window)
 
 ---
 

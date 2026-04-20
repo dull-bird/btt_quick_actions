@@ -52,7 +52,7 @@
     "BTTTpFourFingerSwipeSensitivity" : 0.054690782563025224,
     "BSTMoveTreshold" : 2,
     "BTTHideFomControlStripWhenOpen" : false,
-    "BTTNumberOfStarts" : 2,
+    "BTTNumberOfStarts" : 3,
     "BTTForceNormalClickPressure3F" : 150,
     "showSiriRemoteTab" : true,
     "SIRIScrollSpeed" : 1,
@@ -158,11 +158,11 @@
     "BTTNotchBarNotchMenubarModeHideRightScrollable" : true,
     "BSTSnapAreaDefaultPictoDistanceFromLeft" : 0.10000000000000001
   },
-  "BTTPresetUUID" : "39193244-C293-4374-BE47-AC39B8B92297",
+  "BTTPresetUUID" : "595E3C0E-3E59-4F0B-BA10-6191E3271848",
   "BTTPresetContent" : [
     {
-      "BTTAppBundleIdentifier" : "com.apple.finder",
-      "BTTAppName" : "Finder",
+      "BTTAppBundleIdentifier" : "BT.L",
+      "BTTAppName" : "Recently Used",
       "BTTAppAutoInvertIcon" : 1,
       "BTTTriggers" : [
 
@@ -175,23 +175,6 @@
       "BTTAppProcessMatchMode" : 2,
       "BTTAppProcessName" : "PDF Expert",
       "BTTTriggers" : [
-        {
-          "BTTLastUpdatedAt" : 1776666515.901052,
-          "BTTTriggerType" : 0,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTUUID" : "B684B1BA-964C-45E0-9E8B-4CAD1A36306D",
-          "BTTLayoutIndependentActionChar" : "[",
-          "BTTShortcutToSend" : "55,33",
-          "BTTAdditionalConfiguration" : "262145",
-          "BTTShortcutKeyboardType" : 0,
-          "BTTTriggerOnDown" : 1,
-          "BTTLayoutIndependentChar" : "-",
-          "BTTShortcutKeyCode" : 27,
-          "BTTShortcutAdvancedModifierKeys" : "262145",
-          "BTTShortcutModifierKeys" : 262144,
-          "BTTOrder" : 0,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
         {
           "BTTLastUpdatedAt" : 1776666515.9009051,
           "BTTTriggerType" : 0,
@@ -208,6 +191,23 @@
           "BTTShortcutModifierKeys" : 393216,
           "BTTOrder" : 1,
           "BTTAutoAdaptToKeyboardLayout" : 0
+        },
+        {
+          "BTTLastUpdatedAt" : 1776666515.901052,
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTUUID" : "B684B1BA-964C-45E0-9E8B-4CAD1A36306D",
+          "BTTLayoutIndependentActionChar" : "[",
+          "BTTShortcutToSend" : "55,33",
+          "BTTAdditionalConfiguration" : "262145",
+          "BTTShortcutKeyboardType" : 0,
+          "BTTTriggerOnDown" : 1,
+          "BTTLayoutIndependentChar" : "-",
+          "BTTShortcutKeyCode" : 27,
+          "BTTShortcutAdvancedModifierKeys" : "262145",
+          "BTTShortcutModifierKeys" : 262144,
+          "BTTOrder" : 0,
+          "BTTAutoAdaptToKeyboardLayout" : 0
         }
       ]
     },
@@ -219,6 +219,46 @@
         "BTTDisableGlobalTriggers" : false
       },
       "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1776677370.8950551,
+          "BTTTriggerType" : 169,
+          "BTTTriggerTypeDescriptionReadOnly" : "4 Finger Double Tap",
+          "BTTTriggerTypeDescription" : "Custom Tap Sequence (4 Fingers)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "7F4E3766-716D-4444-A7CC-5B25978285E0",
+          "BTTPredefinedActionType" : 263,
+          "BTTPredefinedActionName" : "Capture & Edit Screenshot or Video (using new Mojave tools)",
+          "BTTAdditionalConfiguration" : "14233241",
+          "BTTOrder" : 7,
+          "BTTGestureNotes" : "Custom Tap Sequence (4 Fingers)",
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0
+          }
+        },
+        {
+          "BTTLastUpdatedAt" : 1776666515.9035511,
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "CFA7FD7D-8DC0-40EB-B459-9F7C79CDE32B",
+          "BTTShortcutToSend" : "59,56,48",
+          "BTTOrder" : 6,
+          "BTTGestureNotes" : "3 Finger Swipe Right"
+        },
+        {
+          "BTTLastUpdatedAt" : 1776677183.111593,
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "DC2E5121-0499-4D28-AB07-D7ABFEE8BFB6",
+          "BTTShortcutToSend" : "59,48",
+          "BTTRequiredModifierKeys" : 0,
+          "BTTOrder" : 5,
+          "BTTGestureNotes" : "3 Finger Swipe Left",
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0
+          }
+        },
         {
           "BTTLastUpdatedAt" : 1776666515.9040031,
           "BTTTriggerType" : 643,
@@ -242,7 +282,19 @@
           }
         },
         {
-          "BTTLastUpdatedAt" : 1776671417.7291279,
+          "BTTLastUpdatedAt" : 1776666515.9012661,
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "6D3A198A-ECEC-4F17-AF1C-87F21861E38E",
+          "BTTPredefinedActionType" : 5,
+          "BTTPredefinedActionName" : "Mission Control",
+          "BTTRequiredModifierKeys" : 262144,
+          "BTTOrder" : 10,
+          "BTTGestureNotes" : "3 Finger Swipe Up"
+        },
+        {
+          "BTTLastUpdatedAt" : 1776680069.989949,
           "BTTTriggerType" : 0,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTUUID" : "57F55D8B-3CE5-4CD2-B7B7-0DCB18FB3369",
@@ -260,39 +312,117 @@
           "BTTAutoAdaptToKeyboardLayout" : 0
         },
         {
+          "BTTLastUpdatedAt" : 1776666515.904933,
+          "BTTTriggerType" : 643,
+          "BTTTriggerTypeDescription" : "Named Trigger: N/A",
+          "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+          "BTTUUID" : "BF7AE0D1-1FA6-4440-B2BC-82F0D92B330B",
+          "BTTOrder" : 1,
+          "BTTGestureNotes" : "Named Trigger: N/A"
+        },
+        {
           "BTTLastUpdatedAt" : 1776666515.906322,
           "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
           "BTTUUID" : "4527FD08-CD27-4CA3-9A00-057C1210B307",
           "BTTOrder" : 0
         },
         {
-          "BTTLastUpdatedAt" : 1776677370.8950551,
-          "BTTTriggerType" : 169,
-          "BTTTriggerTypeDescriptionReadOnly" : "4 Finger Double Tap",
-          "BTTTriggerTypeDescription" : "Custom Tap Sequence (4 Fingers)",
+          "BTTLastUpdatedAt" : 1776677172.0563149,
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
           "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "7F4E3766-716D-4444-A7CC-5B25978285E0",
-          "BTTPredefinedActionType" : 263,
-          "BTTPredefinedActionName" : "Capture & Edit Screenshot or Video (using new Mojave tools)",
-          "BTTAdditionalConfiguration" : "14233241",
-          "BTTOrder" : 7,
-          "BTTGestureNotes" : "Custom Tap Sequence (4 Fingers)",
+          "BTTUUID" : "5A71E43D-3966-4119-B56F-5CEC2FF249B2",
+          "BTTPredefinedActionType" : 112,
+          "BTTPredefinedActionName" : "Enter Fullscreen (If Supported)",
+          "BTTRequiredModifierKeys" : 524288,
+          "BTTOrder" : 3,
+          "BTTGestureNotes" : "3 Finger Swipe Up",
           "BTTTriggerConfig" : {
             "BTTNoTouchTimeout" : 0
           }
         },
         {
-          "BTTLastUpdatedAt" : 1776677148.724355,
+          "BTTLastUpdatedAt" : 1776677156.693872,
           "BTTTriggerType" : 103,
           "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
           "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "83DB14EA-B549-4610-8B92-D5D344BDE291",
-          "BTTShortcutToSend" : "55,13",
-          "BTTOrder" : 0,
+          "BTTUUID" : "58F5AB99-0950-4FD8-BCAD-800B102C59BB",
+          "BTTPredefinedActionType" : 102,
+          "BTTPredefinedActionName" : "Close Window Under Cursor (Works in Mission Control)",
+          "BTTRequiredModifierKeys" : 8388608,
+          "BTTOrder" : 1,
           "BTTGestureNotes" : "3 Finger Swipe Down",
           "BTTTriggerConfig" : {
             "BTTNoTouchTimeout" : 0
           }
+        },
+        {
+          "BTTLastUpdatedAt" : 1776678207.4278431,
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTUUID" : "18A65B40-F4FA-4E2D-9EFB-B148C0191943",
+          "BTTPredefinedActionType" : 20,
+          "BTTPredefinedActionName" : "Maximize Window Right Half",
+          "BTTAdditionalConfiguration" : "524352",
+          "BTTShortcutScope" : 0,
+          "BTTShortcutKeyboardType" : 2658,
+          "BTTTriggerOnDown" : 1,
+          "BTTLayoutIndependentChar" : "ড",
+          "BTTShortcutKeyCode" : 13,
+          "BTTShortcutAdvancedModifierKeys" : "524352",
+          "BTTShortcutModifierKeys" : 524288,
+          "BTTOrder" : 3,
+          "BTTAutoAdaptToKeyboardLayout" : 0,
+          "BTTTriggerConfig" : {
+            "BTTLeftRightModifierDifferentiation" : 1
+          }
+        },
+        {
+          "BTTLastUpdatedAt" : 1776666515.902894,
+          "BTTTriggerType" : 1004,
+          "BTTTriggerTypeDescription" : "Button 4",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTUUID" : "C69A7E77-BA8D-47E1-B3FD-790796ECB97A",
+          "BTTPredefinedActionType" : 21,
+          "BTTPredefinedActionName" : "Maximize Window",
+          "BTTOrder" : 1,
+          "BTTGestureNotes" : "Button 4"
+        },
+        {
+          "BTTLastUpdatedAt" : 1776666515.9016981,
+          "BTTTriggerType" : 112,
+          "BTTTriggerTypeDescription" : "3 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "A4908809-B757-4A4C-AE80-D1AB086C4172",
+          "BTTOrder" : 13,
+          "BTTActionsToExecute" : [
+            {
+              "BTTLastUpdatedAt" : 1776666515.901809,
+              "BTTTriggerParentUUID" : "A4908809-B757-4A4C-AE80-D1AB086C4172",
+              "BTTIsPureAction" : true,
+              "BTTUUID" : "77A73FAF-9C0A-4F93-A978-7AF4313675CF",
+              "BTTPredefinedActionType" : 48,
+              "BTTPredefinedActionName" : "Maximize Window to Next Monitor",
+              "BTTOrder" : 796
+            }
+          ],
+          "BTTGestureNotes" : "3 Finger Click",
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0,
+            "BTTHUDText" : "✈️",
+            "BTTShowHUD" : 1
+          }
+        },
+        {
+          "BTTLastUpdatedAt" : 1776666515.9034181,
+          "BTTTriggerType" : 1003,
+          "BTTTriggerTypeDescription" : "Button 3",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTUUID" : "F80C2557-58F9-474B-BAB3-7A863235D014",
+          "BTTPredefinedActionType" : 106,
+          "BTTPredefinedActionName" : "Minimize Window Under Cursor",
+          "BTTOrder" : 0,
+          "BTTGestureNotes" : "Button 3"
         },
         {
           "BTTLastUpdatedAt" : 1776678207.42785,
@@ -347,6 +477,19 @@
           }
         },
         {
+          "BTTLastUpdatedAt" : 1776677148.724355,
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTUUID" : "83DB14EA-B549-4610-8B92-D5D344BDE291",
+          "BTTShortcutToSend" : "55,13",
+          "BTTOrder" : 0,
+          "BTTGestureNotes" : "3 Finger Swipe Down",
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0
+          }
+        },
+        {
           "BTTLastUpdatedAt" : 1776666515.9050889,
           "BTTTriggerType" : 102,
           "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
@@ -360,170 +503,6 @@
           "BTTTriggerConfig" : {
             "BTTNoTouchTimeout" : 0,
             "BTTHUDText" : "🔙"
-          }
-        },
-        {
-          "BTTLastUpdatedAt" : 1776666515.9021091,
-          "BTTTriggerType" : 163,
-          "BTTTriggerTypeDescription" : "3 Finger Double-Tap",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "215F530F-A544-49D0-80CB-D0DC65DCD327",
-          "BTTLayoutIndependentActionChar" : "d",
-          "BTTShortcutToSend" : "59,55,2",
-          "BTTOrder" : 8,
-          "BTTGestureNotes" : "3 Finger Double-Tap"
-        },
-        {
-          "BTTLastUpdatedAt" : 1776678207.4278431,
-          "BTTTriggerType" : 0,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTUUID" : "18A65B40-F4FA-4E2D-9EFB-B148C0191943",
-          "BTTPredefinedActionType" : 20,
-          "BTTPredefinedActionName" : "Maximize Window Right Half",
-          "BTTAdditionalConfiguration" : "524352",
-          "BTTShortcutScope" : 0,
-          "BTTShortcutKeyboardType" : 2658,
-          "BTTTriggerOnDown" : 1,
-          "BTTLayoutIndependentChar" : "ড",
-          "BTTShortcutKeyCode" : 13,
-          "BTTShortcutAdvancedModifierKeys" : "524352",
-          "BTTShortcutModifierKeys" : 524288,
-          "BTTOrder" : 3,
-          "BTTAutoAdaptToKeyboardLayout" : 0,
-          "BTTTriggerConfig" : {
-            "BTTLeftRightModifierDifferentiation" : 1
-          }
-        },
-        {
-          "BTTLastUpdatedAt" : 1776666515.903688,
-          "BTTTriggerType" : 127,
-          "BTTTriggerTypeDescription" : "1 Finger Tap Bottom Middle",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "B40CD1BA-C96C-4DD4-B5E9-DA4283A125D5",
-          "BTTLayoutIndependentActionChar" : "m",
-          "BTTShortcutToSend" : "55,46",
-          "BTTRequiredModifierKeys" : 524288,
-          "BTTOrder" : 11,
-          "BTTGestureNotes" : "1 Finger Tap Bottom Middle",
-          "BTTTriggerConfig" : {
-            "BTTNoTouchTimeout" : 0,
-            "BTTTriggerRestrictions" : "0"
-          }
-        },
-        {
-          "BTTLastUpdatedAt" : 1776671417.7291651,
-          "BTTTriggerType" : 0,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTUUID" : "CFEC2874-5F74-485C-BE01-24CB39DAB808",
-          "BTTPredefinedActionType" : 29,
-          "BTTPredefinedActionName" : "Brightness Down",
-          "BTTAdditionalConfiguration" : "9699337",
-          "BTTShortcutKeyboardType" : 2658,
-          "BTTRepeatRate" : 0.10238742083311081,
-          "BTTTriggerOnDown" : 1,
-          "BTTLayoutIndependentChar" : "LEFT",
-          "BTTShortcutKeyCode" : 123,
-          "BTTShortcutAdvancedModifierKeys" : "9699337",
-          "BTTShortcutModifierKeys" : 9699328,
-          "BTTOrder" : 1,
-          "BTTAutoAdaptToKeyboardLayout" : 0
-        },
-        {
-          "BTTLastUpdatedAt" : 1776666515.9016981,
-          "BTTTriggerType" : 112,
-          "BTTTriggerTypeDescription" : "3 Finger Click",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "A4908809-B757-4A4C-AE80-D1AB086C4172",
-          "BTTOrder" : 13,
-          "BTTActionsToExecute" : [
-            {
-              "BTTLastUpdatedAt" : 1776666515.901809,
-              "BTTTriggerParentUUID" : "A4908809-B757-4A4C-AE80-D1AB086C4172",
-              "BTTIsPureAction" : true,
-              "BTTUUID" : "77A73FAF-9C0A-4F93-A978-7AF4313675CF",
-              "BTTPredefinedActionType" : 48,
-              "BTTPredefinedActionName" : "Maximize Window to Next Monitor",
-              "BTTOrder" : 796
-            }
-          ],
-          "BTTGestureNotes" : "3 Finger Click",
-          "BTTTriggerConfig" : {
-            "BTTNoTouchTimeout" : 0,
-            "BTTHUDText" : "✈️",
-            "BTTShowHUD" : 1
-          }
-        },
-        {
-          "BTTLastUpdatedAt" : 1776666515.902894,
-          "BTTTriggerType" : 1004,
-          "BTTTriggerTypeDescription" : "Button 4",
-          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
-          "BTTUUID" : "C69A7E77-BA8D-47E1-B3FD-790796ECB97A",
-          "BTTPredefinedActionType" : 21,
-          "BTTPredefinedActionName" : "Maximize Window",
-          "BTTOrder" : 1,
-          "BTTGestureNotes" : "Button 4"
-        },
-        {
-          "BTTLastUpdatedAt" : 1776666515.9012661,
-          "BTTTriggerType" : 102,
-          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "6D3A198A-ECEC-4F17-AF1C-87F21861E38E",
-          "BTTPredefinedActionType" : 5,
-          "BTTPredefinedActionName" : "Mission Control",
-          "BTTRequiredModifierKeys" : 262144,
-          "BTTOrder" : 10,
-          "BTTGestureNotes" : "3 Finger Swipe Up"
-        },
-        {
-          "BTTLastUpdatedAt" : 1776666515.9034181,
-          "BTTTriggerType" : 1003,
-          "BTTTriggerTypeDescription" : "Button 3",
-          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
-          "BTTUUID" : "F80C2557-58F9-474B-BAB3-7A863235D014",
-          "BTTPredefinedActionType" : 106,
-          "BTTPredefinedActionName" : "Minimize Window Under Cursor",
-          "BTTOrder" : 0,
-          "BTTGestureNotes" : "Button 3"
-        },
-        {
-          "BTTLastUpdatedAt" : 1776677183.111593,
-          "BTTTriggerType" : 100,
-          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "DC2E5121-0499-4D28-AB07-D7ABFEE8BFB6",
-          "BTTShortcutToSend" : "59,48",
-          "BTTRequiredModifierKeys" : 0,
-          "BTTOrder" : 5,
-          "BTTGestureNotes" : "3 Finger Swipe Left",
-          "BTTTriggerConfig" : {
-            "BTTNoTouchTimeout" : 0
-          }
-        },
-        {
-          "BTTLastUpdatedAt" : 1776666515.9035511,
-          "BTTTriggerType" : 101,
-          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "CFA7FD7D-8DC0-40EB-B459-9F7C79CDE32B",
-          "BTTShortcutToSend" : "59,56,48",
-          "BTTOrder" : 6,
-          "BTTGestureNotes" : "3 Finger Swipe Right"
-        },
-        {
-          "BTTLastUpdatedAt" : 1776677172.0563149,
-          "BTTTriggerType" : 102,
-          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "5A71E43D-3966-4119-B56F-5CEC2FF249B2",
-          "BTTPredefinedActionType" : 112,
-          "BTTPredefinedActionName" : "Enter Fullscreen (If Supported)",
-          "BTTRequiredModifierKeys" : 524288,
-          "BTTOrder" : 3,
-          "BTTGestureNotes" : "3 Finger Swipe Up",
-          "BTTTriggerConfig" : {
-            "BTTNoTouchTimeout" : 0
           }
         },
         {
@@ -542,29 +521,42 @@
           }
         },
         {
-          "BTTLastUpdatedAt" : 1776666515.904933,
-          "BTTTriggerType" : 643,
-          "BTTTriggerTypeDescription" : "Named Trigger: N/A",
-          "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
-          "BTTUUID" : "BF7AE0D1-1FA6-4440-B2BC-82F0D92B330B",
+          "BTTLastUpdatedAt" : 1776680069.989918,
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTUUID" : "CFEC2874-5F74-485C-BE01-24CB39DAB808",
+          "BTTPredefinedActionType" : 29,
+          "BTTPredefinedActionName" : "Brightness Down",
+          "BTTAdditionalConfiguration" : "9699337",
+          "BTTShortcutKeyboardType" : 2658,
+          "BTTRepeatRate" : 0.10238742083311081,
+          "BTTTriggerOnDown" : 1,
+          "BTTLayoutIndependentChar" : "LEFT",
+          "BTTShortcutKeyCode" : 123,
+          "BTTShortcutAdvancedModifierKeys" : "9699337",
+          "BTTShortcutModifierKeys" : 9699328,
           "BTTOrder" : 1,
-          "BTTGestureNotes" : "Named Trigger: N/A"
+          "BTTAutoAdaptToKeyboardLayout" : 0
         },
         {
-          "BTTLastUpdatedAt" : 1776677156.693872,
-          "BTTTriggerType" : 103,
-          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTLastUpdatedAt" : 1776666515.9021091,
+          "BTTTriggerType" : 163,
+          "BTTTriggerTypeDescription" : "3 Finger Double-Tap",
           "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTUUID" : "58F5AB99-0950-4FD8-BCAD-800B102C59BB",
-          "BTTPredefinedActionType" : 102,
-          "BTTPredefinedActionName" : "Close Window Under Cursor (Works in Mission Control)",
-          "BTTRequiredModifierKeys" : 8388608,
-          "BTTOrder" : 1,
-          "BTTGestureNotes" : "3 Finger Swipe Down",
-          "BTTTriggerConfig" : {
-            "BTTNoTouchTimeout" : 0
-          }
+          "BTTUUID" : "215F530F-A544-49D0-80CB-D0DC65DCD327",
+          "BTTLayoutIndependentActionChar" : "d",
+          "BTTShortcutToSend" : "59,55,2",
+          "BTTOrder" : 8,
+          "BTTGestureNotes" : "3 Finger Double-Tap"
         }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.finder",
+      "BTTAppName" : "Finder",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTTriggers" : [
+
       ]
     },
     {
@@ -603,14 +595,6 @@
             "BTTTriggerRestrictions" : "0"
           }
         }
-      ]
-    },
-    {
-      "BTTAppBundleIdentifier" : "BT.L",
-      "BTTAppName" : "Recently Used",
-      "BTTAppAutoInvertIcon" : 1,
-      "BTTTriggers" : [
-
       ]
     }
   ],
